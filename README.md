@@ -627,7 +627,7 @@
                     this.player.y = this.player.jumpStartY + (this.player.jumpTargetY - this.player.jumpStartY) * easeProgress;
                     
                     // Handle horizontal movement during jump
-                    const moveSpeed = 4;
+                    const moveSpeed = 1;
                     if (this.keys.left) {
                         this.player.x = Math.max(0, this.player.x - moveSpeed);
                     }
